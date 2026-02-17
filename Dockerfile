@@ -47,6 +47,10 @@ default_temperature = 0.7
 port = 3000
 host = "[::]"
 allow_public_bind = true
+
+[channels_config.telegram]
+bot_token = ""
+allowed_users = ["*"]
 EOF
 
 RUN chown -R 65534:65534 /zeroclaw-data
