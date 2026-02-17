@@ -48,6 +48,9 @@ port = 3000
 host = "[::]"
 allow_public_bind = true
 
+[channels_config]
+cli = false
+
 [channels_config.telegram]
 bot_token = ""
 allowed_users = ["*"]
